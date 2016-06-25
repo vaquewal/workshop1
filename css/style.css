@@ -1,0 +1,434 @@
+/*
+font-family: 'Montserrat', sans-serif;
+font-family: 'Open Sans', sans-serif;
+*/
+
+/*
+nav #2b3e4f 
+header #00bd9d 
+footer #2b3e4f 
+*/
+
+body {
+	font-family: 'Open Sans', sans-serif;
+	color: white;
+}
+
+.contenedor {
+	max-width: 1024px;
+	margin: 0 auto;
+}
+
+header {
+	background: #2b3e4f;
+}
+
+header div h3 {
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    font-size: 25px;
+    font-weight: 600;
+    display: inline-block;
+    padding: 40px 0;
+}
+
+header div nav {
+	display: inline-block;
+	float: right;
+    padding: 45px 0;	
+}
+
+header div nav ul li {
+	display: inline-block;
+
+}
+
+header div nav ul li a {
+	text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    font-weight: 800;
+    letter-spacing: 0px;
+    font-size: 14px;
+    padding-right: 15px;
+}
+
+header div nav ul li:last-child a {
+	padding-right: 0;
+}
+
+.section1 {
+	background-color: #00bd9d;
+	text-align: center;
+	padding: 140px 0px 120px ;
+}
+
+.section1 h1 {
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    font-size: 60px;
+    font-weight: 600;
+    padding: 15px 0;
+}
+
+.section1 span::after{
+	content: "-"
+	border:2px solid #fff;
+	width: 100px;
+	padding-right: 10px;
+}
+
+.estrella{
+   position: relative;
+   top: -10px;
+   padding: 0 15px;
+}
+
+.estrella:before {
+   content: "";
+   width: 80px;
+   height: 3px;
+   background: white;
+   display: inline-block;
+}
+
+.ion-android-star:before {
+	font-size: 40px;
+	padding-bottom: 20px;
+}
+
+.section1 h6 {
+	font-size: 25px;
+}
+
+.section2 .contenedor {
+	text-align: center;
+	padding-bottom: 130px;
+}
+
+.section2 h2, .section3 h2, .section4 h2{
+	color: #2b3e4f;
+	text-transform: uppercase;
+	font-size: 38px;
+	font-weight: 700;
+    padding-top: 110px;
+    padding-bottom: 10px;
+}
+
+.section2 .estrella:before, .section2 .estrella:after, .section4 .estrella:before, .section4 .estrella:after {
+	background: #2b3e4f;
+}
+
+.section2 .ion-android-star , .section4 .ion-android-star {
+	color: #2b3e4f;
+}
+
+.section2 ul li {
+	width: 325px;
+	display: inline-block;
+	margin-right: 20px;
+	margin-bottom: 20px;
+	position: relative;
+}
+
+.section2 ul li a img {
+	width: 100%;
+}
+
+.section2 ul li:nth-child(3n) {
+	margin-right: 0px;
+}
+
+.section2 ul li:nth-child(4), .section2 ul li:nth-child(5), .section2 ul li:last-child{
+	margin-bottom: 0;
+}
+
+.section2 ul li div {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top:0;
+	background: rgba(0,189,157,0.5);
+	opacity: 0;
+	transition: 1s;
+}
+
+.section2 ul li div span {
+	position:absolute;
+	top:43%;
+	left:45%;
+	font-size: 50px;
+}
+
+.section2 ul li div:hover {
+	opacity: 1;
+}
+
+.section3 {
+	background-color: #00bd9d; 
+	text-align: center;
+	padding-bottom: 100px;
+}
+
+.section3 div {
+	margin-bottom: 20px;
+}
+.section3 h2 {
+	color :white;
+}
+
+.section3 .texto {
+	margin:0 auto;
+    line-height: 28px;
+
+}
+
+.section3 p{
+	display: inline-block;
+	width: 40%;
+	text-align: left;
+}
+
+.section3 .p1 {
+	margin-right: 10px;
+}
+
+.section4 {
+	text-align: center;
+
+}
+
+.section4 form {
+	min-width: 785px;
+	text-align: left;
+	padding-bottom: 120px;
+}
+
+.section4 input {
+	width: 100%;
+	padding: 33px;
+	font-size: 22px;
+	border:0;
+	border-top: 1px solid #f1f1f1;
+}
+
+textarea {
+	width: 100%;
+	padding: 33px;
+	height: 224px;
+	font-size: 22px;
+	border:0;
+	border-top: 1px solid #f1f1f1;
+	border-bottom: 1px solid #f1f1f1;
+}
+
+input[type="submit"]{
+	width: 100px;
+	padding: 10px;
+	background-color: #00bd9d;
+	margin-top: 10px;
+	margin-left: 10px;
+	border-radius: 5px;
+	border:0;
+	color: white;
+}
+
+footer {
+    padding-top: 75px;
+	background-color: #2b3e4f;
+}
+
+footer article {
+	padding-bottom: 60px;
+}
+
+.location {
+	width: 217px;
+	display: inline-block;
+}
+
+.location h3, .social h3 {
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    font-size: 22px;
+    font-weight: 600;
+    padding-bottom: 40px;
+    text-align: center;
+
+}
+
+.location p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 100;
+    text-align: center;
+   	line-height: 25px;
+}
+
+.social {
+	display: inline-block;
+	width: 50%;
+	text-align: center;
+    vertical-align: top;
+}
+
+.social ul li {
+    display: inline-block;
+    border: 1px solid white;
+    border-radius: 50%;
+    padding: 10px;
+    width: 20px;
+    font-size: 20px;
+    margin-right: 10px;
+}
+
+.social ul li a {
+	color:white;
+}
+
+.copy {
+	text-align: center;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	background-color: #213140;
+}
+
+
+@media screen and (max-width: 768px){
+	.contenedor {
+		max-width: 700px;
+	}
+
+	.section2 ul li {
+		margin: 0px;
+		margin-bottom: 10px;
+	}
+
+	.section2 ul li:nth-child(2n) {
+		margin-left: 10px;
+		margin-right: 0px;
+	}
+ 
+	.section4 form {
+    	min-width: 100%;
+       	padding-bottom: 80px;
+	}
+
+}
+
+
+
+@media screen and (max-width: 375px){
+	.contenedor {
+		max-width: 300px;
+	}
+
+	header div h3 {
+		font-size: 18px;
+		padding: 30px 0px;
+	}
+
+	header div nav {
+		float: none;
+		padding: 30px 0px;
+	}
+
+	.section1{
+	    padding: 24px 0px 45px;
+
+	}
+
+	.section1 h1 {
+	    font-size: 28px;
+	}
+
+	.section1 h6 {
+    	font-size: 18px;
+	}
+
+	.section2 ul li {
+		display: block;
+		margin:0;
+		width: 300px;
+		margin-bottom: 10px;
+	}
+
+	.section2 ul li:nth-child(4), .section2 ul li:nth-child(5){
+		margin-bottom: 10px;
+	}
+
+	.section2 ul li:last-child{
+		margin-bottom: 0px;
+	}
+
+	.section2 .contenedor {
+	    padding-bottom: 78px;
+	}
+	
+	.section3 {
+		padding-bottom: 77px;
+	}
+
+	.section3 .p2 {
+		display: none;
+	}
+	
+	.section3 .p1 {
+		width: 100%;
+	}
+
+	.section3 h2, .section4 h2 {
+		padding-top: 65px;
+	}
+
+	.section4 form {
+    	min-width: 100%;
+       	padding-bottom: 80px;
+	}
+
+	.section4 input, textarea {
+		padding: 15px;
+    	font-size: 15px;
+	}
+	
+	.w375 {
+		max-width: 375px;
+	}
+
+	input[type="submit"] {
+    	width: 80px;
+    }
+
+	footer {
+    	padding-top: 62px;
+	}
+
+	.location, .social {
+		display:block;
+		width: 100%;
+	}
+	
+	.location h3 {
+		padding-bottom: 30px;
+	}
+	.location p {
+		width: 68%;
+    	margin: 0 auto;
+    	padding-bottom: 50px;
+	}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
